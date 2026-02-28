@@ -14,10 +14,13 @@ The Builder's Lab workspace for experiments, prototypes, and teaching systems.
 uv python install 3.14
 uv venv --python 3.14
 uv sync
+```
 
 ### Run a project
 
+```
 uv run python projects/space_captain/main.py
+```
 
 
 ## Structure
