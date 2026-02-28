@@ -1,0 +1,16 @@
+[project]
+name = "python-lab"
+version = "0.1.0"
+description = "Python lab for experiments, teaching, and prototypes."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+ "jupyter>=1.1.1",
+]
+
+[dependency-groups]
+dev = [
+   "black>=26.1.0",
+   "pytest>=9.0.2",
+   "ruff>=0.15.2",
+]
